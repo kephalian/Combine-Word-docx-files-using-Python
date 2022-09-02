@@ -1,0 +1,1 @@
+pyinstaller  --clean --onefile --windowed --add-data="default.docx;." --add-data="templates\\*.xml;docxcompose\\templates\\" --icon=icon1.ico --upx-dir=C:\upx-3.96-win64 -y merge_all_docx_in_folder.py
